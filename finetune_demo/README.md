@@ -199,6 +199,7 @@ OMP_NUM_THREADS=1 torchrun --standalone --nnodes=1 --nproc_per_node=8  finetune_
 ```angular2html
 cd finetune_demo
 python finetune_hf.py  data/AdvertiseGen/  THUDM/chatglm3-6b  configs/lora.yaml
+python finetune_hf.py  /home/jhqtest/data/AdvertiseGen_fix  THUDM/chatglm3-6b  configs/lora.yaml
 ```
 
 ## 从保存点进行微调
